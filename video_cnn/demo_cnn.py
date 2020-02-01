@@ -46,7 +46,7 @@ class CNN_model(nn.Module):
         #dimmension de x, (3, 28, 28) -> (3, 28, 28)
         x = F.relu(x)
 
-        #dimmension de x, (3, 28, 28) -> (3, 15, 15)
+        #dimmension de x, (3, 28, 28) -> (3, 14, 14)
         x = self.pool(x)
 
         #debut du reseau lineaire associe
