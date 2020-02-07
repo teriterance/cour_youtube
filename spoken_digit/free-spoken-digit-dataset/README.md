@@ -1,2 +1,2 @@
 # How it work
-Run train.py
+Run training.py
